@@ -1,0 +1,6 @@
+Melhorar
+
+- Ensinar a correr ficou um pouco confuso
+- Slime grande tá fácil de matar
+- Socar as pedras que colidimos é intuitivo
+- Delay ao pular de plataforma é necessário 
