@@ -4,12 +4,9 @@ using UnityEngine;
 
 public class placaController : MonoBehaviour
 {
-  
     public GameObject placaTransform;
-
     public bool inativo = false;
     public GameObject painelCanvasFloresta;
-
 
     void Update()
     {
@@ -23,6 +20,4 @@ public class placaController : MonoBehaviour
         }
     }
 
-
- 
 }

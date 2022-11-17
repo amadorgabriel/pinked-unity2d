@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class rockController : MonoBehaviour
 {
-
     //atackRock vs pointWeapon
     private GameController _GameController; 
     private float beginPos;
@@ -14,7 +13,6 @@ public class rockController : MonoBehaviour
     {
         _GameController = FindObjectOfType(typeof(GameController)) as GameController;
     }
-
 
     void Update()
     {
@@ -35,6 +33,5 @@ public class rockController : MonoBehaviour
     // void OnTriggerEnter2D(Collider2D other) {
     //     _GameController.tocarEfeitos( _GameController.AudioAtaque, 0.5f );
     // }
-
 
 }

@@ -13,8 +13,6 @@ public class GameController : MonoBehaviour
     private playerController _playerController;
     public Animator _playerAnimator;
 
-
-
     //Plataformas
     public float plataformaVel;
 
@@ -43,7 +41,6 @@ public class GameController : MonoBehaviour
     public Image[] coracoes;
     public int quantVida;
 
-
     void Start()
     {
         camera = Camera.main;
@@ -64,9 +61,7 @@ public class GameController : MonoBehaviour
         {
             velCamera = 3.5f;
         }
-
     }
-
 
     //Depois que ocorre o update é chamado (p/ frame)
     void LateUpdate()
@@ -101,7 +96,6 @@ public class GameController : MonoBehaviour
 
         //Lerp( PosiçãoAtual, PosiçãoFinal, Velocidade)
         camera.transform.position = Vector3.Lerp(camera.transform.position, posCam, velCamera * Time.deltaTime);
-
     }
 
     public void tocarEfeitos(AudioClip audio, float volume)
@@ -147,7 +141,4 @@ public class GameController : MonoBehaviour
         moedasColetadas += 1;
         moedasValue.text = moedasColetadas.ToString();
     }
-
-    
-
 }

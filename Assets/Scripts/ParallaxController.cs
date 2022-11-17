@@ -5,17 +5,14 @@ using UnityEngine;
 public class ParallaxController : MonoBehaviour
 {
     public Transform backgroung;
-    public float    velocidade;
-
+    public float velocidade;
     private Transform Cam;
     private Vector3 posicaoCamInicial;
-
 
     void Start()
     {
         Cam = Camera.main.transform;
         posicaoCamInicial = Cam.position;
-        
     }
 
     void LateUpdate() {
@@ -27,7 +24,5 @@ public class ParallaxController : MonoBehaviour
         backgroung.position = Vector3.Lerp(backgroung.position, bgPosition, velocidade * Time.deltaTime);
     
         posicaoCamInicial = Cam.position;
-        
-        
     }
 }

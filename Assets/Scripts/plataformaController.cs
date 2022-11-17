@@ -17,7 +17,6 @@ public class plataformaController : MonoBehaviour
 
     void Update()
     {
-
         if (transform.position == pos1.position ){
             proximaPos = pos2.position;
         }
@@ -32,5 +31,4 @@ public class plataformaController : MonoBehaviour
     {
         Gizmos.DrawLine(pos1.position, pos2.position);        
     }
-
 }

@@ -5,7 +5,6 @@ using UnityEngine.UI;
 
 public class damageText : MonoBehaviour
 {
-
     public Text dano;
 
     void Start()

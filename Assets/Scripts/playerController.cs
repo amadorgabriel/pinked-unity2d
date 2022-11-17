@@ -67,7 +67,6 @@ public class playerController : MonoBehaviour
     public bool tiroPedra = false;
     public bool tiroPedraIntensa = false;
 
-
     void Start()
     {
         _rigidBody = GetComponent<Rigidbody2D>();
